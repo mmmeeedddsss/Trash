@@ -1,0 +1,1 @@
+open 9gag.bat. if you open jar file, open task manager and kill all javax.exes

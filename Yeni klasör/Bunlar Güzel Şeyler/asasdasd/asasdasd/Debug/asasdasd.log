@@ -1,0 +1,43 @@
+﻿Build started 02.02.2011 21:24:45.
+     1>Project "C:\Users\Mert\Desktop\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\asasdasd\asasdasd\asasdasd.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Hesap Makinesi.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Hesap Makinesi.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt asasdasd.cpp /clr:nostdlib 
+         asasdasd.cpp
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(183): error C2039: 'carp_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(183): error C2065: 'carp_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(183): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(203): error C2039: 'esittir_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(203): error C2065: 'esittir_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(203): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(324): error C2039: 'Sil_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(324): error C2065: 'Sil_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(324): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(334): error C2039: 'k_kok_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(334): error C2065: 'k_kok_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(334): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(344): error C2039: 'mod_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(344): error C2065: 'mod_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(344): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(354): error C2039: 'negatif_Click' : is not a member of 'asasdasd::Form1'
+                 c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(23) : see declaration of 'asasdasd::Form1'
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(354): error C2065: 'negatif_Click' : undeclared identifier
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(354): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(424): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(479): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(482): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>asasdasd.cpp(19): fatal error C1075: end of file found before the left brace '{' at 'c:\users\mert\desktop\microsoft c\yeni klasör\bunlar güzel şeyler\asasdasd\asasdasd\Form1.h(5)' was matched
+     1>Done Building Project "C:\Users\Mert\Desktop\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\asasdasd\asasdasd\asasdasd.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.63

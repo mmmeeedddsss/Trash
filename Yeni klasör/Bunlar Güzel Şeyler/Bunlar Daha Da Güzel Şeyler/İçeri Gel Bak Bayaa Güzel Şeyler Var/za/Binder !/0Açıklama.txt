@@ -1,0 +1,5 @@
+Öncelikle Yeni Bir Klasöre Arþiv.c atýlýr. 
+Yanýnda Baþka Hiçbir Exe Olmadan Arsiv.c Derlenir. 
+Ardýndan Arsive eklenecek exe dosyalarý( a,b,c .exe ) klasöre eklenir.
+bender.cpp klasöre eklenir ve  derlenir.
+hazýr . exe çýktýsý çalýþtýrýldýðýnda arþive eklenen 3 exe tekrar oluþturulur.( a,b,c .exe )

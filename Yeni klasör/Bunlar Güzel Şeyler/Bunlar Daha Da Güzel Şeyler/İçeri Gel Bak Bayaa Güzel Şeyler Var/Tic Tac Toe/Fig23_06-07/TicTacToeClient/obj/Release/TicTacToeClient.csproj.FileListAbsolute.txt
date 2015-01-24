@@ -1,0 +1,9 @@
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.exe
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.pdb
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\bin\Release\TicTacToeClient.exe
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\bin\Release\TicTacToeClient.pdb
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.Properties.Resources.resources
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClientForm.resources
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Mert\Desktop\Fig23_06-07\TicTacToeClient\obj\Release\GenerateResource-ResGen.write.1.tlog

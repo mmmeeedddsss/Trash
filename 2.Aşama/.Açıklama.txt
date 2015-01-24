@@ -1,0 +1,47 @@
+Soru 1:
+	Girilen 3 Sayýnýn Toplamýný,Çarpýmýný ve Ortalamasýný Basan Program Yazýnýz. Girdi : 3 int deger.
+Soru 2:
+	Girilen n Sayýsýna Kadar Olan Sayýlarýn Ortalamasýný Alan ve Ekrana Bastýran Program. GÝrdi : n Sayýsý.
+Soru 3:
+	Girilen Sayýnýn Veya Harf dizisinin( String ) Palindrom Olup Olmadýgýný Kontrol Eden Program Yazýnýz. Fonk. Kullanmak Gerekli. Girdi : sayý veya harf dizisi. Örn: 1121 veya ahmha
+	( Palindrom : Tersten Ve Düzden Okunusu Ayný Olan Þeyler. ata palidromdur. 123454321 palindromdur. ama bajgan degil. veya 9992 )
+Soru 4:
+	Bir Magazadan Alýþveriþ Yapan Adamýn Ödemesi Gereken Toplam FÝyatý Hesaplýyorsunuz. n Tane Ürün Ýçin Ayrý Ayrý no ve fiyat Degeri Girilecek. Ardýndan Satýn Alan Adamýn Neyden Kaç Tane Aldýðý Girilcek.
+	Örn : 
+	n sayýsý
+	ü0no ü0fiyat
+	ü1no ü1fiyat
+	.
+	.
+	.
+	ü(n-1)no ü(n-1)fiyat
+	no1 adet
+	no2 adet
+	.
+	.
+	.
+	no(n) adet
+
+	gerçek bir örnek vericek olursak
+	3
+	1 120 // 1 nolu ürün 120 para
+	3 250 // 3    "       "    250   "
+	12 500
+	3 2 // 3 nolu üründen 2 tane aldým
+	1 3 // 1    "         "      3    "        "
+	12 1
+	
+	Çýktý : Toplam Tutar. Yukarýdaki Örnek Ýçin : 500 + 360 + 500
+Soru 5:
+	Sizden Ýstenen MasterMind Oyunu Yazmanýz. 2 Kiþi Oynanan Bu Oyunda 1. Taraf Bir Þifre Belirliyor. Bu Þifre 4 karakter uzunluðunda int bir deðer.( mesela 1234 )
+	1. Oyuncu Þifreyi Seçtikten Sonra 2. Oyuncu Tahminlerde Bulunarak Bu Sayýyý Bulmaya Çalýþýyor. Amaç 2. oyuncunun Sayýyý En Az Tahminde Bulmasý. Yazcanýz Program Bu Oyuna Platform Oluþturmuþ Olacak.
+	Programýnýz Öncelikle 1. Oyuncudan Girdi Alýcak. Bu GÝrdi Bulunmaya Çalýþýlan Þifre Oluyor. Ardýndan Ekran Silincek( system("cls"); kodu siyah cmd ekranýnda önceden yazýlmýþ þeyleri siler  ). Oyuncu 2 tahminlerde Bulunmaya Baþlar.
+	2. Oyuncunun Her Tahmini Ýçin Programýnýz ; Eyer Bir Rakamýn Hem Yeri Hem Rakamsal Deðeri Aynýysa 1 adet ' + ', Sadece Rakamsal Olarak Þifrede Bulunan Bir Rakamsa ' - ', 2 si de deðilse hiçbiþey bastýrcak( :P ).
+	Eyer 2. Oyuncu 1. oyuncunun Þifresini Bulursa Yani 1. SAyýya Eþit Bir Sayý Girerse Oyun Sonlanýcak ve Kaç Elde Bulunduðunu Ekrana Yazdýrcak.
+	Örnek GÝrdi:
+	1223 // 1. oyuncu grdisi. ekran silindi
+	2379 //bu girdi için programýnýz - - yazdýrcak çünkü hiç hem basamak hem deðer ayný olan sayý yok. ama 2 ve 3 basamaklarý ayný olmasada þifrede bulunuyor. bu nedenle birer - yi hakettiler
+	7293 //bu girdi için + - basýlcak çünkü 3 hem basamak hem deðer açýsýndan ayný 2 ise sadece deðer açýsýndan yani 1 + 1 -
+	2239 //bu girdi için + - - basar. 2lerden biri ayný yer ayný basamak diðer 2 ve 3 de sayýsal eþit
+	1224 //bu girdi için +++ basar 1 2 2 ayný yer ve basamakta
+	1223 // bu girdi oyunu bitirir. program sonlanmadan önce kaç tahminde bulunduðunu yazdýrmalý. biz 5 tahminde bulduk

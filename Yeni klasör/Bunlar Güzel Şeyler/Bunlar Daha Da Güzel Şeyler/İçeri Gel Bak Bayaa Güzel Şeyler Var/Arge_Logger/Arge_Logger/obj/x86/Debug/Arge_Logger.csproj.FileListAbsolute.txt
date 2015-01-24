@@ -1,0 +1,35 @@
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\Arge_Logger.exe
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\Arge_Logger.pdb
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\Arge_Logger.frmMain.resources
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\Arge_Logger.Properties.Resources.resources
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\bin\Debug\Arge_Logger.exe
+C:\Users\Admin\Desktop\CW_KEY_LOGGER\Arge_Logger\bin\Debug\Arge_Logger.pdb
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\Arge_Logger.exe
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\Arge_Logger.pdb
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\bin\Debug\Arge_Logger.exe
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\bin\Debug\Arge_Logger.pdb
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\Arge_Logger.Properties.Resources.resources
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Admin\Desktop\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\bin\Debug\WindowsDate.exe
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\bin\Debug\WindowsDate.pdb
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.Properties.Resources.resources
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.exe
+C:\Users\Admin\Desktop\Programming\dotnet\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.pdb
+C:\Users\Mert\Desktop\asd\asd\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.exe
+C:\Users\Mert\Desktop\asd\asd\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.pdb
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.exe
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.pdb
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\bin\Debug\WindowsDate.exe
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\bin\Debug\WindowsDate.pdb
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\WindowsDate.Properties.Resources.resources
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Mert\Desktop\Lol\Microsoft C\Yeni klasör\Bunlar Güzel Şeyler\Bunlar Daha Da Güzel Şeyler\İçeri Gel Bak Bayaa Güzel Şeyler Var\Arge_Logger\Arge_Logger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
