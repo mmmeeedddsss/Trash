@@ -1,0 +1,92 @@
+#include<iostream>
+#include<fstream>
+#include<math.h>
+using namespace std;
+
+int n,k;
+int *kibritler;
+int *canaklar;
+
+int calcAndCount(int start, int count) // 3, 1
+{
+	cout<<"start --> "<<start<<endl;
+	cout<<"count--> "<<count<<endl;
+	int sum = 0;
+	if( start%k != 0 || start+count < k-1 ) // starti mod k da 0 yapmak istiyoruz
+	{
+		int i=start;
+		for( i=start; (i == 0 ||( i%k != 0 )) && count > 0; i++ )
+		{
+			kibritler[i]++;
+			sum += kibritler[i];
+			count--;
+		}
+		start++;
+		count--;
+	}
+	if( count > 0 )
+	{
+		int k_now = start/k;
+		int to = count/k;
+		bool flag = false;
+		for( int i=0; i<to; i++ )
+		{
+			flag = true;
+			canaklar[k_now + i]++;
+			sum += canaklar[k_now + i];
+		}
+		if( flag )
+		{
+			start += to*k;
+			count -= to*k;
+		}
+	}
+	if( count > 0 )
+	{
+		if( count == n- (k*k) )
+		{
+			canaklar[k]++;
+			sum+=canaklar[k];
+			return sum;
+		}
+		for( int i=0; i<count; i++ )
+		{
+			kibritler[start+i]++;
+			sum += kibritler[start+i];
+		}
+	}
+	return sum;
+	
+}
+
+int main()
+{
+	ifstream in("jagoda.gir");
+	ofstream out("jagoda.cik");
+	int m;
+	in>>n>>m;
+	k = (int)sqrt(n);
+	cout<<"k --> "<<k<<endl;
+	cout<<"n --> "<<n<<endl;
+	
+	kibritler = new int[n];
+	canaklar = new int[k+1];
+	for( int i=0; i<n; i++ )
+	   kibritler[i] = 0;
+	for( int i=0; i<k+1; i++ )
+	   canaklar[i] = 0;
+	for( int i=0; i<m; i++ )
+	{
+		int start, count;
+		in>>count>>start;
+		out<<calcAndCount(--start,count)<<endl;
+		for( int i=0; i<n; i++ )
+			cout<<kibritler[i]<<" ";
+		cout<<endl;
+		for( int i=0; i<k+1; i++ )
+			cout<<canaklar[i]<<" ";
+		cout<<endl;
+	}
+	out.close();
+	return 0;
+}

@@ -1,0 +1,36 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+
+long *b;
+int main()
+{
+	ifstream in("badhair.gir");
+	ofstream out("badhair.cik");
+	long n;
+	in>>n;
+	long *a = new long[n]; // inek boyları
+	b = new long[n]; // kaç görebiliyo
+	for( long i=0; i<n; i++ )
+		in>>a[i];
+
+	b[n-1] = 0;	
+
+	long sum = 0;
+	for( long i=n-2; i>=0; i-- )
+	{
+		if( a[i] <= a[i+1] )
+			b[i] = 0;
+		else
+		{
+			int range = 1;
+			while( a[i] > a[i+range] && i+range < n )
+				range += b[i+range] + 1;
+			b[i] = range - 1;
+			sum += b[i];
+		}
+	}
+	out<<sum<<endl;
+	out.close();
+	return 0;			
+}

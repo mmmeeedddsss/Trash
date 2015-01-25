@@ -1,0 +1,21 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+	ofstream out("jabuka.cik");
+	ifstream in("jabuka.gir");
+	int r,g;
+	in>>r>>g;
+	int min = ( (r>g)?g:r );
+	
+	if( !(r%min) && !(g%min) )
+			out<<min<<" "<<r/min<<" "<<g/min<<endl;
+	
+	for( int i=min/2+1; i>=1; i-- )
+		if( !(r%i) && !(g%i) )
+			out<<i<<" "<<r/i<<" "<<g/i<<endl;
+			
+	out.close();
+}

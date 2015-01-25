@@ -1,0 +1,141 @@
+#include<iostream>
+#include<fstream>
+#include<vector>
+using namespace std;
+
+bool isDone( vector<int> v )
+{
+	bool flag = false;
+	for( int i=0; i<v.size(); i++ )
+	{
+		if( v[i] > 1 )
+			return false;
+		if( v[i] == 1 )
+		{
+			if( flag == true )
+				return false;
+			else
+				flag = true;
+		}
+		else
+			flag = false;
+	}
+	return true;
+}
+
+vector<int> regulate( vector<int> v )
+{
+	while( !isDone(v) )
+	{
+		for( int i=v.size()-1; i>=1; i-- ) // birleştirme
+		{
+			if( v[i] > 0 && v[i-1] > 0 )
+			{
+				if( i == v.size()-1 )
+					v.push_back(1);
+				else
+					v[i+1]++;
+				if( v[i+1] > 1 )
+				{
+					v[i+1]--;
+					continue;
+				}
+				v[i]--;
+				v[i-1]--;
+				i+=2;
+				if( i >= v.size() )
+					i = v.size()-1;
+			}
+			
+		}
+		if( isDone(v) )
+			return v;
+		for( int i=2; i<v.size(); i++ ) // dağıtma
+		{
+			if( v[i] >= 2 && v[i-1] == 0 && v[i-2] == 0 )
+			{
+				v[i]--;
+				v[i-1]++;
+				v[i-2]++;
+			}
+			
+		}
+		if( v[1] >= 2 )
+		{
+			v[0]++;
+			v[1]-=2;
+			if( v.size() == 2 )
+				v.push_back(1);
+			else
+				v[2]++;
+		}
+		if( v[0] >= 2 )
+		{
+			v[0]-=2;
+			if( v.size() == 1 )
+				v.push_back(1);
+			else
+				v[1]++;
+		}
+		
+	}
+	return v;
+}
+
+int max(int x,int y)
+{
+	return ( x>y ? x : y );
+}
+
+int calc()
+{
+	ifstream in("fibonacci.gir");
+	int n;
+	int temp;	
+
+	in>>n;
+	vector<int> v1;
+	for( int i=0; i<n; i++ )
+	{
+		in>>temp;
+		v1.push_back(temp);
+	}
+
+	in>>n;
+	vector<int> v2;
+	for( int i=0; i<n; i++ )
+	{
+		in>>temp;
+		v2.push_back(temp);
+	}
+	
+	vector<int> sum;
+	int maxsize = max(v1.size(),v2.size());
+	while(v1.size() < maxsize)
+		v1.push_back(0);
+	while(v2.size() < maxsize)
+		v2.push_back(0);
+
+	for( int i=0; i<maxsize; i++ )
+		sum.push_back( v1[i] + v2[i] );
+
+	sum = regulate( sum );
+	int i=sum.size()-1;
+	while( sum[i] == 0 )
+	{
+		sum.pop_back();
+		i--;
+	}
+	ofstream out("fibonacci.cik");
+	out<<sum.size()<<" ";
+	for( int i=0; i<sum.size(); i++ )
+		out<<sum[i]<<" ";
+	//out<<endl;
+	out.close();
+
+}
+
+int main()
+{
+	calc();
+}
